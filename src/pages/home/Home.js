@@ -1,10 +1,9 @@
+// src/pages/Home.js
+import React from 'react';
+
+// Página de Inicio con contenido de bienvenida
 const Home = () => {
-    return (
-        <div className="container">
-            <h1>Welcome to Small Business Solutions :D</h1>
-            <a href="/main">Iniciar</a>
-        </div>
-    )
-}
+  return <h2>Bienvenido a mi Portafolio</h2>;
+};
 
 export default Home;
